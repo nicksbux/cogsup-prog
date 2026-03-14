@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.10.8), .xpe-file, coding: cp1252
+#date: Sat Mar 14 2026 22:55:59
+#sha1: f2bbbc
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='nicks_pc', release='10', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+866,stderr,received,'Traceback (most recent call last):'
+866,stderr,received,'  File "C:\\Users\\nicni\\Documents\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\two_squares.py", line 13, in <module>'
+867,stderr,received,'    squarer = stimuli.Rectangle(sze(50,50), colour=(0, 255, 0), position=(100, 0))'
+867,stderr,received,"NameError: name 'sze' is not defined"
