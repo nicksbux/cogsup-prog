@@ -1,4 +1,4 @@
-from expryment import design, control, stimuli
+from expyriment import design, control, stimuli
 
 # set default modes for countdown, screen size and quit
 control.set_develop_mode()
