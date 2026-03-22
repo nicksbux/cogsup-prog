@@ -29,7 +29,7 @@ displacement_x = 400
 step_size = 10
 
 # motion of the left (red) square to the right, up to the right (green) square
-while squarel.position[0] + 75 - squarer.position[0] < square_length:
+while squarel.position[0] + 25 - squarer.position[0] - 25 < square_length:
     squarel.move((step_size, 0))
     fixation.present(clear=True, update=False)
     squarel.present(clear=False, update=False)
