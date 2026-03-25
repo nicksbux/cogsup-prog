@@ -41,5 +41,6 @@ while squarer.position[0] < displacement_x:
     fixation.present(clear=True, update=False)
     squarel.present(clear=False, update=False)
     squarer.present(clear=False, update=True)
+    
 # end the experiment
 control.end()
