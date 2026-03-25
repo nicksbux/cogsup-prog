@@ -37,7 +37,7 @@ while squarer.position[0] - squarel.position[0] > square_length:
 
 # motion of the right(green) square to the right, when reached by the left(red) one 
 while squarer.position[0] < displacement_x:
-    squarer.move((step_size, 0)) 
+    squarer.move((3*step_size, 0)) 
     fixation.present(clear=True, update=False)
     squarel.present(clear=False, update=False)
     squarer.present(clear=False, update=True)
