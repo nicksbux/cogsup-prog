@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.10.8), .xpe-file, coding: cp1252
+#date: Thu Mar 26 2026 00:22:55
+#sha1: 64ab61
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='nicks_pc', release='10', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1309,design,log,
+#design: #exp: Labeled Shapes
+#design: block_cnt,block_id,trial_cnt,trial_id
+1309,design,logged,
+1309,Experiment,started
+1310,Stimulus,presented,4
+1311,Stimulus,presented,5
+1312,Stimulus,presented,0
+1315,Stimulus,presented,2
+1316,Stimulus,presented,6
+1318,Stimulus,presented,1
+1322,Stimulus,presented,3
+4933,Keyboard,received,32,wait
+4933,Experiment,ended

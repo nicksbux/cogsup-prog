@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.10.8), .xpe-file, coding: cp1252
+#date: Thu Mar 26 2026 00:15:07
+#sha1: a8fec8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='nicks_pc', release='10', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+638,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000001D1288169E0>'
+638,stderr,received,'Traceback (most recent call last):'
+638,stderr,received,'  File "C:\\Users\\nicni\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+639,stderr,received,'    if self._compression_filename is not None:'
+639,stderr,received,"AttributeError: 'Shape' object has no attribute '_compression_filename'"
+640,stderr,received,'Traceback (most recent call last):'
+640,stderr,received,'  File "C:\\Users\\nicni\\Documents\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\labeled_shapes.py", line 28, in <module>'
+640,stderr,received,'    triangle = stimuli.Shape(triangle_build, colour=(128, 0, 128), position=(-100, 0))'
+640,stderr,received,"TypeError: Shape.__init__() got multiple values for argument 'position'"
